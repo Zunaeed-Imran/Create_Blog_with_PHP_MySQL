@@ -2,8 +2,8 @@
 
 $conn = mysqli_connect(
    "localhost",
-   "homestead",
-   "secret",
+   "root",
+   "",
    "packetcode-test"
 );
 
