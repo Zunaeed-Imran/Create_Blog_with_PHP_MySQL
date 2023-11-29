@@ -12,8 +12,8 @@ include '1_practice.php';
 </head>
 <body>
   <form action="1.2_practice.php" method="get">
-    <input type="text" name="title" placeholder="Add a New Blog"><br>
-    <textarea name="content" cols="30" rows="10">Write Content here</textarea><br>
+    <input type="text" name="title_1" placeholder="Add a New Blog"><br>
+    <textarea name="content_1" cols="30" rows="10" placeholder="Write Content Here"></textarea><br>
     <input type="submit" name="submit">
   </form>
 </body>
