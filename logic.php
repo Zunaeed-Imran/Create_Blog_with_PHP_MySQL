@@ -1,8 +1,8 @@
 <?php
 
 $conn = mysqli_connect(
-   "localhost",
-   "homestead",
+   "localhost",           
+   "homestead",         // need to change the hsot name to work
    "secret",
    "packetcode-test"
 );
