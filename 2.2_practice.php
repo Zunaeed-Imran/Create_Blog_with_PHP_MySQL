@@ -1,5 +1,5 @@
 <?php
-
+include '2_practice.php';
 
 ?>
 

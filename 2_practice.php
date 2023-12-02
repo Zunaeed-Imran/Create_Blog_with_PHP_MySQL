@@ -1,6 +1,6 @@
 <?php
 
-$conn = new mysqli('localhost', 'root', '', 'pocketcode-test');
+$conn = new mysqli('localhost', 'root', '', 'packetcode-test');
 
 if($conn){
   if(isset($_REQUEST['submit'])){
