@@ -1,5 +1,5 @@
 <?php
-// Display page
+// Display page or index page
 
  include '3_practice.php';
 
