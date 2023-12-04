@@ -1,4 +1,5 @@
 <?php
+// html input data page
   include '3_practice.php';
 ?>
 

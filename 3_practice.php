@@ -1,4 +1,5 @@
 <?php
+// connect page & data input php sql page
 
 $connect = new mysqli('localhost', 'root', '', 'packetcode-test');
 
