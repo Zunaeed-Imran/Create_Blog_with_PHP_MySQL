@@ -1,5 +1,6 @@
 <?php
-// html input data page
+// html input data page or create page
+
   include '3_practice.php';
 ?>
 
@@ -11,6 +12,9 @@
   <title>Input Data Page</title>
 </head>
 <body>
+  <a href="3.2_practice.php">
+    <button>Index page</button>
+  </a>
   <form action="3.1_practice.php" method="post">  <!- this time i forgot to write form in php ->
     <input type="number" name="id" placeholder="ID"><br>
     <input type="text" name="name3" placeholder="Name"><br>
