@@ -2,7 +2,7 @@
 
 $connect = new mysqli('localhost', 'root', '', 'packetcode-test');
 
-if($connect){
+
 
   if(isset($_REQUEST['submit'])){
     $id = $_REQUEST['id'];
@@ -11,10 +11,9 @@ if($connect){
     
     $insrt = "INSERT into `practice3` (id, name3, blog3) VALUES ('$id', '$name3', '$blog3')";
     
-    mysqli_query($connect, $insrt);
+    $result = mysqli_query($connect, $insrt);
 
       header('location:3.1_practice.php');
   }
-}
   
 ?>
