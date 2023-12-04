@@ -14,7 +14,7 @@ $connect = new mysqli('localhost', 'root', '', 'packetcode-test');
     
     $result = mysqli_query($connect, $insrt);
 
-      header('location:3.1_practice.php');
+      header('location:3.2_practice.php');
   }
   
 ?>
