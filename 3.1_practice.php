@@ -10,7 +10,7 @@
   <title>Input Data Page</title>
 </head>
 <body>
-  <form action="3.1_practice.php" method="post"> 
+  <form action="3.1_practice.php" method="post">  <!- this time i forgot to write form in php ->
     <input type="number" name="id" placeholder="ID"><br>
     <input type="text" name="name3" placeholder="Name"><br>
     <textarea name="blog3" cols="30" rows="10" placeholder="Blog"></textarea><br>
