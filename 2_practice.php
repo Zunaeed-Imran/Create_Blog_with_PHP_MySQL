@@ -1,17 +1,17 @@
 <?php
 
-$conn = new mysqli('localhost', 'root', '', 'packetcode-test');
+$connect = new mysqli('localhost', 'root', '', 'packetcode-test');
 
-if($conn){
-  if(isset($_REQUEST['submit'])){
-    $name = $_REQUEST['name'];
+
+if ($connect) {
+  if (isset($_REQUEST['submit'])) {
+    $name1 = $_REQUEST['name1'];
     $blog = $_REQUEST['blog'];
 
-    $sql = "INSERT into practice2 (name, blog) values ('$name', '$blog')";
+    $sql = "INSERT into practice2 (name1, blog) VALUES ('$name1', '$blog')";
 
-    mysqli_query($conn, $sql);
+    mysqli_query($connect, $sql);
+
     header('location:2.2_practice.php');
   }
 }
-
-?>

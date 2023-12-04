@@ -12,9 +12,9 @@ include '2_practice.php';
 </head>
 <body>
   <form action="2.2_practice.php" method="get">
-    <input type="text" name="name" placeholder="Write the name"><br>
+    <input type="text" name="name1" placeholder="Write the name"><br>
     <textarea name="blog"cols="30" rows="10" placeholder="write the blog"></textarea><br>
-    <button type="submit">submit</button>
+    <button type="submit" name="submit">submit</button>    
   </form>
 </body>
 </html>
