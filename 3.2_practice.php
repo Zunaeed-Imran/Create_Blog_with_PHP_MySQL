@@ -31,8 +31,8 @@
     <tbody>
       <?php foreach($rows as $r) : ?>
       <tr>
-        <td><?= $r=['id'] ?></td>
-        <td><?= $r=['name3'] ?></td>
+        <td><?= $r['id'] ?></td>
+        <td><?= $r['name3'] ?></td>
         <td><?= $r['blog3'] ?></td>
       </tr>
       <?php endforeach ?>
