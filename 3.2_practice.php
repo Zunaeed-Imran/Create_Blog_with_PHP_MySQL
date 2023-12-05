@@ -28,6 +28,7 @@ $rows = $display->fetch_all(MYSQLI_ASSOC);
         <th>Id</th>
         <th>Name</th>
         <th>Blog</th>
+        <th>Action</th>
       </tr>
     </thead>
     <tbody>
@@ -36,6 +37,9 @@ $rows = $display->fetch_all(MYSQLI_ASSOC);
           <td><?= $r['id'] ?></td>      <!-- i was given '=' after $r -->
           <td><?= $r['name3'] ?></td>   <!-- and that was wrong -->
           <td><?= $r['blog3'] ?></td>
+          <td>
+            <a href=""><button>Delete</button></a>
+          </td>
         </tr>
       <?php endforeach ?>
     </tbody>
