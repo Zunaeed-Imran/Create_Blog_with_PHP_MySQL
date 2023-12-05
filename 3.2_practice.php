@@ -38,7 +38,7 @@ $rows = $display->fetch_all(MYSQLI_ASSOC);
           <td><?= $r['name3'] ?></td>   <!-- and that was wrong -->
           <td><?= $r['blog3'] ?></td>
           <td>
-            <a href=""><button>Delete</button></a>
+            <a href="3.3_practice.php?id=<?= $r['id'] ?>"><button>Delete</button></a>
           </td>
         </tr>
       <?php endforeach ?>
