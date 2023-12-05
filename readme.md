@@ -12,3 +12,7 @@
 - this time i forget to write form 
 - i write input without form.
 - without form element input php  will not work in html page
+
+3.2_practice (some of my fault)
+- i was giving '=' after $row variable and that was a mistake
+- in foreach value we done't have to use '=' after variable
